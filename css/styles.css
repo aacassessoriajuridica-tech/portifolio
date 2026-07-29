@@ -575,7 +575,7 @@ a {
 
 .areas-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5px;
   background: var(--color-border);
   border: 1.5px solid var(--color-border);
@@ -586,7 +586,7 @@ a {
 .area-card {
   position: relative;
   background: var(--color-white);
-  padding: 2.5rem 2rem;
+  padding: 2.25rem 1.75rem;
   overflow: hidden;
   transition: background var(--transition), transform var(--transition);
 }
@@ -1068,9 +1068,11 @@ a {
 /* Stagger — filhos se revelam em cascata */
 .areas-grid .reveal:nth-child(2)       { transition-delay: 0.10s; }
 .areas-grid .reveal:nth-child(3)       { transition-delay: 0.20s; }
-.areas-grid .reveal:nth-child(4)       { transition-delay: 0.10s; }
-.areas-grid .reveal:nth-child(5)       { transition-delay: 0.20s; }
-.areas-grid .reveal:nth-child(6)       { transition-delay: 0.30s; }
+.areas-grid .reveal:nth-child(4)       { transition-delay: 0.30s; }
+.areas-grid .reveal:nth-child(5)       { transition-delay: 0.05s; }
+.areas-grid .reveal:nth-child(6)       { transition-delay: 0.15s; }
+.areas-grid .reveal:nth-child(7)       { transition-delay: 0.25s; }
+.areas-grid .reveal:nth-child(8)       { transition-delay: 0.35s; }
 .advogadas-grid .reveal:nth-child(2)   { transition-delay: 0.15s; }
 .advogadas-grid .reveal:nth-child(3)   { transition-delay: 0.30s; }
 .diferenciais-grid .reveal:nth-child(2){ transition-delay: 0.15s; }
